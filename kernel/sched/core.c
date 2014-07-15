@@ -2196,7 +2196,6 @@ unsigned long this_cpu_load(void)
 	return this->cpu_load[0];
 }
 
-
 /* Variables and functions for calc_load */
 static atomic_long_t calc_load_tasks;
 static unsigned long calc_load_update;
