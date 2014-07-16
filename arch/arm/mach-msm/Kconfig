@@ -1949,7 +1949,13 @@ config CPU_OVERCLOCK
 	bool "Enable CPU Overclocking option"
 	default n
 	help
-	  Krait overclocking up to 2.5 GHz
+	  Krait overclocking up to 2.6 GHz
+
+config SOUND_FIX
+	bool "Remove 300Mhz clock"
+	default n
+	help
+	  Sound error fix
 
 config MSM_HW3D
 	tristate "MSM Hardware 3D Register Driver"
